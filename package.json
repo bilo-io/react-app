@@ -14,7 +14,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "commit": "node ./scripts/commit.js",
+    "branch": "node ./scripts/branch.js",
+    "release": "node ./scripts/release.js"
   },
   "eslintConfig": {
     "extends": "react-app"

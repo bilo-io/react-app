@@ -1,3 +1,26 @@
+# React App
+
+This is a React JS template.
+
+|name|description|
+|:-|:-|
+|[React](https://reactjs.org/)|A Javascript library for building user interfaces|
+|[Creat React App](https://www.npmjs.com/package/create-react-app)|React project creation CLI|
+|[SASS](https://sass-lang.com/)|CSS Precompiler (`.scss`)|
+|[Webpack](https://webpack.js.org/)|Bundling|
+
+## Quickstart
+
+- `git clone`
+- `npm install`
+- `npm start`
+
+> `npm start:storybook` will launch the storybook docs for this repo.
+
+## Project Structure
+
+> AUTO_GENERATED_DOCS_BELOW:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
