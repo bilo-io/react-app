@@ -6,6 +6,7 @@ This is a React JS template.
 |:-|:-|
 |[React](https://reactjs.org/)|A Javascript library for building user interfaces|
 |[Creat React App](https://www.npmjs.com/package/create-react-app)|React project creation CLI|
+|[Redux Sagas](https://redux-saga.js.org/)|Redux middleware for handling side-effects (async, etc.)|
 |[SASS](https://sass-lang.com/)|CSS Precompiler (`.scss`)|
 |[Webpack](https://webpack.js.org/)|Bundling|
 
@@ -18,6 +19,45 @@ This is a React JS template.
 > `npm start:storybook` will launch the storybook docs for this repo.
 
 ## Project Structure
+
+```bash
+studio
+│
+│   # GENERATED FILES
+├── dist (or build)
+├── node_modules
+│
+│   # SOURCE FILES
+├── src
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   ├── screens
+│   │   ├── screen-1/
+│   │   │   ├── index.js/
+│   │   │   └── other.js/
+│   │   │
+│   │   ├── screen-2/
+│   │   ├── screen-3/
+│   │   └── screen-4/    # etc.
+│   │
+│   ├── services/
+│   ├── styles/
+│   ├── util/
+│   ├── widgets/
+│   │
+│   ├── app.js
+│   ├── index.html
+│   ├── index.js
+│   ├── reducer.js
+│   └── store.js
+│
+├── README.md
+├── package.json
+├── eslint.rc
+├── webpack.config.js
+└── .gitignore
+```
 
 > AUTO_GENERATED_DOCS_BELOW:
 
